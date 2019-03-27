@@ -19,7 +19,7 @@ int getMiddle(int left, int right) {
 int main()
 {
 	for (int i = 0; i < 1000; ++i) {
-		cout << "number is: " << i << endl;
+		cout << "the current count is: " << i << endl;
 		if (getMiddle(rand(), rand()))
 			break;
 	}
